@@ -22,6 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
     example8Route,
     example9Route,
     example10Route,
+    example11Route,
+    example12Route,
+    example13Route
   ];
 
   @override

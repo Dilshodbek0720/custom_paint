@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyView(),
-      // onGenerateRoute: MyRouter.generateRoute,
-      // initialRoute: homeRoute,
+      // home: MyView(),
+      onGenerateRoute: MyRouter.generateRoute,
+      initialRoute: homeRoute,
     );
   }
 }

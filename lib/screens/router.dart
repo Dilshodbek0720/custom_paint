@@ -3,6 +3,7 @@ import 'package:custom_paint_course/screens/TestScreen.dart';
 import 'package:custom_paint_course/screens/example0/example_0.dart';
 import 'package:custom_paint_course/screens/example1/example_1.dart';
 import 'package:custom_paint_course/screens/example10/example_10.dart';
+import 'package:custom_paint_course/screens/example11/examle_11.dart';
 import 'package:custom_paint_course/screens/example2/example_2.dart';
 import 'package:custom_paint_course/screens/example3/example_3.dart';
 import 'package:custom_paint_course/screens/example4/example_4.dart';
@@ -14,6 +15,9 @@ import 'package:custom_paint_course/screens/example9/example_9.dart';
 import 'package:custom_paint_course/screens/hero_animation.dart';
 import 'package:custom_paint_course/screens/home_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'example12/example12.dart';
+import 'example13/example13.dart';
 
 class MyRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -42,6 +46,12 @@ class MyRouter {
         return MaterialPageRoute(builder: (_) => Example9());
       case example10Route:
         return MaterialPageRoute(builder: (_) => Example10());
+      case example11Route:
+        return MaterialPageRoute(builder: (_) => Example11());
+      case example12Route:
+        return MaterialPageRoute(builder: (_) => Example12());
+      case example13Route:
+        return MaterialPageRoute(builder: (_) => Example13());
       case testScreen:
         return MaterialPageRoute(builder: (_) => TestScreen());
       case heroAnimationScreen:
